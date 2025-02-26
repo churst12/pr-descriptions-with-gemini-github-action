@@ -1,0 +1,6 @@
+name: "Create PR descriptions with Gemini"
+description: "Use Google's Gemini to summarize the code changes in a PR description"
+inputs:
+  gemini-api-key:
+    description: "The API key for Google's Gemini"
+    required: true
